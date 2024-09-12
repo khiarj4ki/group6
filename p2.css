@@ -1,0 +1,127 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.navbar .brand-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin-left: 20px;
+}
+
+.navbar .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navbar .nav-links li a:hover {
+    text-decoration: underline;
+}
+
+/* Header Section */
+.header-section {
+    height: 100vh;
+    background: url('https://i.ibb.co.com/xFXZ104/img.jpg') no-repeat center center/cover;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.header-section .header-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.header-section .header-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.header-section .header-content .btn {
+    background-color: #ff6600;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.header-section .header-content .btn:hover {
+    background-color: #ff4500;
+}
+
+/* Main Section Styling */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#extranet {
+    background-color: #20d320;
+}
+
+#intranet {
+    background-color: #1aa4bd;
+}
+
+#internet {
+    background-color: #ffa319;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+.footer p {
+    margin: 0;
+}
