@@ -105,6 +105,11 @@ body {
     background-color: #20d320;
 }
 
+#members {
+    background-color: #d320ca;
+    color: #fff;
+}
+
 #intranet {
     background-color: #1aa4bd;
 }
@@ -130,6 +135,6 @@ body {
     margin: 0;
 }
 
-::-webkit-scrollbar {
-  display: none;
+li {
+    list-style: none;
 }
